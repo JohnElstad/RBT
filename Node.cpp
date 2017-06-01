@@ -21,7 +21,7 @@ Node::Node(){
 Node::~Node(){
   delete &data; 
 }
-
+//getter functions
 Node* Node::getLeft(){
   return left;
 }
@@ -38,7 +38,7 @@ Node* Node::getParent(){
 int Node::getData(){
   return data;
 }
-
+//settter functions
 void Node::setData(int newData){
   data = newData;
 }

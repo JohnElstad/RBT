@@ -1,6 +1,6 @@
 #include "RBT.h"
 #include <iostream>
-
+//This cpp file is what actually does the labour. Its the algorithm that moves around the nodes and fixes everthing after.
 using namespace std;
 //constructor
 RBT::RBT(){
