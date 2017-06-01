@@ -4,7 +4,7 @@
 #include "RBT.h"
 
 using namespace std;
-
+//Red Black Treee, John Elstad, May 31, 2017
 //This reads the files in
 void checkInput(ifstream &stream, bool &isFile){ 
   char input[128];
